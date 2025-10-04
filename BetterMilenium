@@ -1906,7 +1906,7 @@
 
         function library:dropdown(options) 
             local cfg = {
-                name = options.name or nil;
+                name = options.name or "error";
                 info = options.info or nil;
                 flag = options.flag or library:next_flag();
                 options = options.items or {""};
