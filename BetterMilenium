@@ -7,12 +7,6 @@
     -> Idk who or why this got leaked, ui was VERY popular and high in demand with customers
 ]]
 
-if getgenv().loaded then 
-    return
-end 
-
-getgenv().loaded = true
-
 -- Variables 
     local uis = game:GetService("UserInputService") 
     local players = game:GetService("Players") 
